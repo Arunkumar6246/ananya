@@ -1,26 +1,122 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-    <head>
-        {% include 'headers.html' %}
-    </head>
-    <body>
-        <div class="page-wrapper">
-            <!-- Preloader -->
-            <div id="preloader">
-                <div id="status">&nbsp;</div>
-              </div>
-            {% include 'navbar.html' %}
 
-            {% block content %}
+<head>
+    {% include 'headers.html' %}
+</head>
 
-            {% endblock %}
-
-            {% include 'footer.html' %}
-            {% include 'scripts.html' %}
-            {% block footer %}
-            {% endblock %}
-
+<body>
+    <div class="page-wrapper">
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
         </div>
-        </body>
-    </html>
+        {% include 'navbar.html' %}
+
+        {% block content %}
+
+        {% endblock %}
+
+        {% include 'footer.html' %}
+        {% include 'scripts.html' %}
+        {% block footer %}
+        {% endblock %}
+
+    </div>
+</body>
+
+<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Enter Info to Download</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form method="POST">
+            {% csrf_token %}
+            <div class="modal-body mx-3">
+                <div class="md-form mb-5">
+                    <input type="text" id="form34" name="txtname" class="form-control validate" required>
+                    <label data-error="wrong"  data-success="right" for="form34">Your name</label>
+                </div>
+
+                <div class="md-form mb-5">
+                    <input type="email" id="form29" name="txtemail" class="form-control validate" required>
+                    <label data-error="wrong"  data-success="right" for="form29">Your
+                        email</label>
+                </div>
+
+                <div class="md-form mb-5">
+                    <input type="text" id="form32" name="txtmob" class="form-control validate" required>
+                    <label data-error="wrong"  data-success="right" for="form32">Mobile
+                        Number</label>
+                </div>
+                <input type="hidden" id="form32" name="confirmotp" class="form-control validate" value="0" required>
+
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary" data-taggle="modal" data-target="#modalOtpconfirmForm"
+                    >Send OTP</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="modalOtpconfirmForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Enter OTP</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form method="POST"  action="{% url 'checkotp' %}">
+                {% csrf_token %}
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                        <input type="text" id="form34" name="confirmotp" class="form-control validate" required>
+                        <label data-error="wrong"  data-success="right" for="form34">Enter
+                            OTP</label>
+
+                        <input type="hidden" id="form32" name="txtname" class="form-control validate" value="0" >
+                        <input type="hidden" id="form32" name="txtemail" class="form-control validate" value="0" >
+                        <input type="hidden" id="form32" name="txtmob" class="form-control validate" value="0" >
+                    </div>
+                    {% if status == "Success" %}
+                    <div class="md-form mb-5">
+                        {{message}}
+                    </div>
+                    {% elif status == "Failure"  %}
+                    <div class="md-form mb-5">
+                        {{message}}
+                    </div>
+                    {% else %}
+                   
+                    {% endif %}
+
+                </div>
+                {% if status == "Success" %}
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continue to download</button>
+                </div>
+                {% else %}
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-primary" type="submit">Confirm OTP</button>
+                </div>
+                {% endif %}
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</html>

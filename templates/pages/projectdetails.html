@@ -234,6 +234,10 @@
 
 
                             <!--Brochure-->
+                           
+                            
+                            <!-- If Otp -->
+                            {% if status == "Success" %}
                             <div class="sidebar-widget brochure-widget">
                                 <h3 class="sidebar-title">Download Brochures</h3>
                                 <div class="brochure-box">
@@ -253,6 +257,23 @@
                                 </div>
 
                             </div>
+
+                            {% else %}
+                            <div class="sidebar-widget brochure-widget">
+                                <h3 class="sidebar-title">Download Brochures</h3>
+                                        
+                                        <button type="button" class="btn btn-primary icon fa fa-file-pdf-o" data-toggle="modal" data-target="#modalContactForm">
+                                            AA Gardens .pdf
+                                          </button>
+                                          
+                                        <button type="button" class="btn btn-primary icon fa fa-file-pdf-o" data-toggle="modal" data-target="#modalContactForm">
+                                            Layout Plan.pdf
+                                          </button>
+
+                            </div>
+                            {% endif %}
+
+
                         </div>
                     </div>
                 </div>
@@ -306,4 +327,21 @@
 </section>
 <!--End Video Section -->
 
+<!-- Otp modal -->
+
+
+
+{% endblock %}
+{% block footer %}
+{% if otpsent %}
+<script>
+    $(document).ready(function(){
+        
+        $('#modalOtpconfirmForm').modal('show');
+        
+       
+    });
+
+</script>
+{% endif %}
 {% endblock %}

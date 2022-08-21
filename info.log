@@ -1,0 +1,826 @@
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 16, in dash_home
+    return render(request, 'pages/home.html')
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 153, in render
+    return compiled_parent._render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'abou' not found. 'abou' is not a valid view function or pattern name.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 16, in dash_home
+    return render(request, 'pages/home.html')
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 176, in render
+    return self._render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 153, in render
+    return compiled_parent._render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 168, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 977, in render
+    return SafeString(''.join([
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 978, in <listcomp>
+    node.render_annotated(context) for node in self
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render_annotated
+    return self.render(context)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 445, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 731, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'abou' not found. 'abou' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden (CSRF cookie not set.): /projectdetails/
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'txtname'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 36, in Projectdetails
+    Name=request.POST["txtname"]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'txtname'
+Not Found: /favicon.ico
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'txtemail'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 38, in Projectdetails
+    Email=request.POST["txtemail"]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'txtemail'
+Not Found: /favicon.ico
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: ('confirmotp', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 40, in Projectdetails
+    Confirm_OTP=request.POST["confirmotp",None]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: ('confirmotp', None)
+Not Found: /favicon.ico
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'confirmotp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 42, in Projectdetails
+    if request.POST["confirmotp"]:
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'confirmotp'
+Not Found: /favicon.ico
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'confirmotp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 44, in Projectdetails
+    Confirm_OTP=request.POST["confirmotp"]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'confirmotp'
+Not Found: /favicon.ico
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'confirmotp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 45, in Projectdetails
+    Confirm_OTP=request.POST["confirmotp"]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'confirmotp'
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 50, in Projectdetails
+    message.success(request,"OTP Mismatch")
+AttributeError: module 'email.message' has no attribute 'success'
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'txtname'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 36, in Projectdetails
+    Name=request.POST["txtname"]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'txtname'
+Not Found: /favicon.ico
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'txtname'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 36, in Projectdetails
+    Name=request.POST["txtname"]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'txtname'
+Not Found: /favicon.ico
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: ('txtname', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 36, in Projectdetails
+    Name=request.POST["txtname",None]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: ('txtname', None)
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /projectdetails/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 83, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'confirmotp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 45, in Projectdetails
+    Confirm_OTP=request.POST["confirmotp"]
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'confirmotp'
+Not Found: /favicon.ico
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\models.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\urls.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /checkotp/
+Traceback (most recent call last):
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py", line 57, in checkotp
+    otp_data=SMS_OTP.objects.get(Name=Name,Email=Email)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\GoodMen\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 443, in get
+    raise self.model.MultipleObjectsReturned(
+AAGardens.models.SMS_OTP.MultipleObjectsReturned: get() returned more than one SMS_OTP -- it returned 2!
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Arun\business\host\AnanyaGardens\AnanyaGardens\AAGardens\views.py changed, reloading.
